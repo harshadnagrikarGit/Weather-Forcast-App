@@ -1,0 +1,44 @@
+*
+{
+	margin :0px ;
+	padding :0px ;
+	box-sizing: border-box;
+}
+.container {
+	height: 100vh;
+	width: 100%;
+	position :fixed ;
+	top :0px ;
+	left :0px ;
+	background-image :linear-gradient(to right, lightskyblue,lightseagreen);
+	display :flex ;
+	justify-content: center;
+	align-content: center;
+
+}
+.weather-app {
+	height: 250px ;
+	width :410px ;
+	background-image: url("https://i.pinimg.com/originals/79/35/fd/7935fdf1fe2c5dd8205de03a214befb0.gif");
+	background-size: 100%;
+	border-radius :20px ;
+	overflow :hidden ;
+	padding :20px ;
+	margin-top :50px ;
+
+}
+#cityname {
+	border : 5px ;
+	outline : 5px ;
+	border-bottom :2px solid gray ;
+}
+.alig {
+	margin-top : 20% ;
+}
+.name {
+	text-align: center;
+	color: lightseagreen;
+}
+#effect:hover {
+	transform :scale(0.95,0.95);
+}
